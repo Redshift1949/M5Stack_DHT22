@@ -1,7 +1,7 @@
 # M5Stack_DHT22
 M5Stack displays temperature/humidity data from a DHT22 in graphical form and stores data on SD card. 
 
-The data is stored with a time stamp which is retrieved from an NTP server. This requires a WiFi connection. If no WiFi is available the data is stored without a time stamp.
+The data is stored with a time stamp which is retrieved from an NTP server. This requires a WiFi connection. If no WiFi is available the data is stored without a time stamp. The sample rate in my app is 1 reading/min but can easily be changed.
 
 The temperature displayed is between 10-30C for my application but can be easily changed.
 
